@@ -39,8 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Node.cs" />
     <Compile Include="osm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Way.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="map.osm">
