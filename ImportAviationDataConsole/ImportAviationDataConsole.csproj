@@ -49,6 +49,10 @@
       <Project>{00D7C604-0114-478E-9C4E-64AEA69FE45C}</Project>
       <Name>OpenAipLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\osmLib\osmLib.csproj">
+      <Project>{8FC73091-3635-4A1E-9D54-3FC09D5D4B85}</Project>
+      <Name>osmLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
